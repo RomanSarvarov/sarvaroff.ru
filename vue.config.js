@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/sarvarov.vue/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/sarvarov.vue/' : '/',
 };
